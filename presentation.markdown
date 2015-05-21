@@ -3,7 +3,7 @@ author:
   name: Lloyd
   twitter: meta_lloyd
   github: lloydmeta
-  url: http://beachape.com
+  url: https://beachape.com
 output: index.html
 theme: sudodoki/reveal-cleaver-theme
 controls: true
