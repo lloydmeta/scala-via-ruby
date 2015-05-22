@@ -212,7 +212,7 @@ case class Car(maxPeople: Int, maxSpeed: Int)
 * Also DSL paradise
 * Can drop `.` for invocations
   ```scala
-(1 until 100) filter {_ % 5 == 0 } map { _ * 5 }take(3)
+(1 until 100) filter {_ % 5 == 0 } map { _ * 5 } take 3
   ```
 * Spray, ScalaTest, Spec2, etc
 * ScalaTags for typed HTML
