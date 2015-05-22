@@ -98,7 +98,7 @@ public class Car {
     return maxSpeed;
   }
 
-  public void setMaxSpeed(int: speed) {
+  public void setMaxSpeed(int speed) {
     maxSpeed = speed;
   }
 
@@ -106,7 +106,7 @@ public class Car {
     return maxPeople;
   }
 
-  public void setMaxPeople(int: people) {
+  public void setMaxPeople(int people) {
     maxPeople = people;
   }
 
@@ -322,6 +322,14 @@ def advance(xs: List[User]) = xs match {
 ## Conclusion
 
 * If you like Ruby you might like Scala; they're more similar than you think
+
+--
+
+## Resources
+
+* [Programming in Scala](http://www.amazon.com/Programming-Scala-Comprehensive-Step---Step-ebook/dp/B004Z1FTXS/ref=sr_1_1?s=books&ie=UTF8&qid=1432262060&sr=1-1&keywords=scala+programming)
+* [Functional Programming on Coursera](https://www.coursera.org/course/progfun)
+* [Reactive Programming on Coursera](https://www.coursera.org/course/reactive)
 
 --
 
