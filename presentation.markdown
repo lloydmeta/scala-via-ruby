@@ -271,8 +271,8 @@ stuff(0) = "d" // => compile error
 val fAsyncCalc= Future { 1 + 1 }
 val fTransformed = fAsyncCalc.map { i => doWithResult(i) }
 fTransformed.foreach { i => println(i) }
-
   ```
+* Built in concurrency abstractions + immmutability + predictability → awesome
 
 --
 
