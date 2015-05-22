@@ -283,6 +283,21 @@ fTransformed.foreach { i => println(i) }
 
 --
 
+### Things Rubyists might ♥ in Scala: Laziness
+
+* Lazy references
+  ```scala
+lazy val result = expensiveOp // memoisation on demand
+  ```
+* Lazy objects: `object` is lazily instantiated on first use
+* Lazy data structures: `Stream` is a lazy collection
+* Call by name parameters
+  ```scala
+def method(actuallyUseA: Boolean, expensiveA: => Int) // expensiveA is called lazily
+  ```
+
+--
+
 ### Things Rubyists might ♥ in Scala: Nicer refactoring
 
 * Static types + controlled extension → the IDE can be very helpful in refactoring

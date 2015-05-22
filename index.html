@@ -994,6 +994,18 @@ fTransformed.foreach { i =&gt; println(i) }</code></pre>
 
   </section>
   <section>
+    <h3 id="things-rubyists-might-in-scala-laziness">Things Rubyists might ♥ in Scala: Laziness</h3>
+<ul>
+<li>Lazy references<pre><code class="lang-scala"><span class="keyword">lazy</span> <span class="keyword">val</span> result = expensiveOp <span class="comment">// memoisation on demand</span></code></pre>
+</li>
+<li>Lazy objects: <code>object</code> is lazily instantiated on first use</li>
+<li>Lazy data structures: <code>Stream</code> is a lazy collection</li>
+<li>Call by name parameters<pre><code class="lang-scala"><span class="keyword">def</span> method(actuallyUseA: Boolean, expensiveA: =&gt; Int) <span class="comment">// expensiveA is called lazily</span></code></pre>
+</li>
+</ul>
+
+  </section>
+  <section>
     <h3 id="things-rubyists-might-in-scala-nicer-refactoring">Things Rubyists might ♥ in Scala: Nicer refactoring</h3>
 <ul>
 <li>Static types + controlled extension → the IDE can be very helpful in refactoring</li>
