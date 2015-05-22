@@ -322,7 +322,7 @@ def advance(xs: List[User]) = xs match {
 
 ## Conclusion
 
-* If you like Ruby you might like Scala; they're more similar than you think
+* If you ♥ Ruby you might ♥ Scala; they're more similar than you think
 
 --
 
