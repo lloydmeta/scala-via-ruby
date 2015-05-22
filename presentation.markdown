@@ -180,6 +180,7 @@ import RichString._
   ```scala
 def quacker(duck: {def quack(value: String): String}) {
   ```
+* Type classes
 * Metaprogramming via Macros
 
 --
