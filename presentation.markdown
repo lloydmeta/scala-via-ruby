@@ -334,3 +334,7 @@ def advance(xs: List[User]) = xs match {
 --
 
 ## Questions?
+
+--
+
+If you can't switch to Scala now, you might want to take a look at [Octoparts](https://beachape.com/octoparts-intro)
